@@ -8,7 +8,7 @@ public final class Test extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         //wewqsd
-        //RAMAZAN SELAM
+        //RAMAZAN SELAMS
 
     }
 
