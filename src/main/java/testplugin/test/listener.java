@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 
-import java.util.List;
+import java.io.File;
 
 
 public class listener extends  commands implements  Listener {
@@ -15,7 +15,7 @@ public class listener extends  commands implements  Listener {
     public void hareketetme(PlayerMoveEvent e) {
         Player player = e.getPlayer();
         player.sendMessage("Harekete edemezsin dayii");
-
+//        File yourFile = new File(Test.getPlugin().getDataFolder().getAbsolutePath() + "/oyuncular.json");
         e.setCancelled(true);
     }
 

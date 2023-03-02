@@ -18,9 +18,7 @@ public class commands implements CommandExecutor {
 
 
         if (cmd.getName().equalsIgnoreCase("rambo")) {
-
             oyuncu.sendMessage("Ramazan");
-
         }
 
 

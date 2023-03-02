@@ -2,3 +2,8 @@ name: Test
 version: '${project.version}'
 main: testplugin.test.Test
 api-version: 1.19
+commands:
+  rambo:
+    description: ramazander.
+    usage: /<command>
+    aliases: [rambo,ramazan]
